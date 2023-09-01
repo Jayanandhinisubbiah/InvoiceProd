@@ -2367,7 +2367,7 @@
                                         <FontFamily>Arial</FontFamily>
                                         <FontSize>8pt</FontSize>
                                         <FontWeight>Bold</FontWeight>
-                                        <Format>d MMM dddd yyyy</Format>
+                                        <Format>d MMM  yyyy</Format>
                                       </Style>
                                     </TextRun>
                                     <TextRun>
@@ -2376,7 +2376,7 @@
                                         <FontFamily>Arial</FontFamily>
                                         <FontSize>8pt</FontSize>
                                         <FontWeight>Bold</FontWeight>
-                                        <Format>d MMM dddd yyyy</Format>
+                                        <Format>d MMM  yyyy</Format>
                                       </Style>
                                     </TextRun>
                                   </TextRuns>
@@ -2672,7 +2672,7 @@
                 <DataSetName>DataSet1</DataSetName>
                 <Left>0.08558cm</Left>
                 <Height>1.53973cm</Height>
-                <Width>9.06407cm</Width>
+                <Width>9.06408cm</Width>
                 <Style>
                   <Border>
                     <Style>None</Style>
@@ -3084,7 +3084,7 @@
                 <Top>0.02117cm</Top>
                 <Left>9.2202cm</Left>
                 <Height>1.51853cm</Height>
-                <Width>9.20419cm</Width>
+                <Width>9.2042cm</Width>
                 <ZIndex>2</ZIndex>
                 <Style>
                   <Border>
