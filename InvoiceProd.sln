@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33801.447
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "InvoiceProd", "InvoiceProd\InvoiceProd.rptproj", "{C2806515-50EA-4072-9AA8-3608C3D9FF03}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C2806515-50EA-4072-9AA8-3608C3D9FF03}.Debug|Default.ActiveCfg = Debug
+		{C2806515-50EA-4072-9AA8-3608C3D9FF03}.Debug|Default.Build.0 = Debug
+		{C2806515-50EA-4072-9AA8-3608C3D9FF03}.Debug|Default.Deploy.0 = Debug
+		{C2806515-50EA-4072-9AA8-3608C3D9FF03}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{C2806515-50EA-4072-9AA8-3608C3D9FF03}.DebugLocal|Default.Build.0 = DebugLocal
+		{C2806515-50EA-4072-9AA8-3608C3D9FF03}.Release|Default.ActiveCfg = Release
+		{C2806515-50EA-4072-9AA8-3608C3D9FF03}.Release|Default.Build.0 = Release
+		{C2806515-50EA-4072-9AA8-3608C3D9FF03}.Release|Default.Deploy.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CBCF4060-4F6F-4BD7-9A32-A4746A8D02FE}
+	EndGlobalSection
+EndGlobal
