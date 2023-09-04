@@ -29,7 +29,7 @@
 					&lt;attribute name="shippingmethodcode" /&gt;
 					&lt;attribute name="paymenttermscode" /&gt;
                                                                                 &lt;attribute name="duedate" /&gt;
-                                                                                 &lt;attribute name="new_po" /&gt;
+                                                                                 &lt;attribute name="new_pono" /&gt;
                                                                                   &lt;attribute name="description" /&gt;
                                                                                 &lt;attribute name="new_placeofsupply" /&gt;
 					&lt;attribute name="invoicenumber" /&gt;
@@ -148,8 +148,8 @@
           <DataField>modifiedon</DataField>
           <rd:TypeName>System.String</rd:TypeName>
         </Field>
-        <Field Name="new_po">
-          <DataField>new_po</DataField>
+        <Field Name="new_pono">
+          <DataField>new_pono</DataField>
           <rd:TypeName>System.String</rd:TypeName>
         </Field>
         <Field Name="description">
@@ -2607,23 +2607,14 @@
                         </TablixCell>
                         <TablixCell>
                           <CellContents>
-                            <Textbox Name="Textbox53">
+                            <Textbox Name="new_pono">
                               <CanGrow>true</CanGrow>
                               <KeepTogether>true</KeepTogether>
                               <Paragraphs>
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value>: </Value>
-                                      <Style>
-                                        <FontFamily>Arial</FontFamily>
-                                        <FontSize>8pt</FontSize>
-                                        <FontWeight>Bold</FontWeight>
-                                        <Format> d MMM,dddd, yyyy</Format>
-                                      </Style>
-                                    </TextRun>
-                                    <TextRun>
-                                      <Value>=Fields!new_po.Value</Value>
+                                      <Value>=Fields!new_pono.Value</Value>
                                       <Style>
                                         <FontFamily>Arial</FontFamily>
                                         <FontSize>8pt</FontSize>
@@ -2637,7 +2628,7 @@
                                   </Style>
                                 </Paragraph>
                               </Paragraphs>
-                              <rd:DefaultName>Textbox53</rd:DefaultName>
+                              <rd:DefaultName>new_pono</rd:DefaultName>
                               <Style>
                                 <Border>
                                   <Style>None</Style>
